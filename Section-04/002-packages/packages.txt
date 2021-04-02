@@ -1,0 +1,23 @@
+packages are a way to ORGANIZE code:
+  - packages are orgnized by their purpose
+  - all files inside one package are interconnected by sharing public functions, public structs and public interfaces
+  - importing one package allows you to use all public functions, public structs and public interfaces on that package (-> "<name of package>.<name of public function/struct/interface>")
+  - the public functions/structs etc. are called "Identifier" when used on an imported package
+
+kinds of packages:
+  (1) core packages,
+    - come with installation of go and live inside the GOROOT folder
+  (2) third-party packages,
+    - installable by anyone using go get <resource structure like "github.com/MyName/my-new-repo">
+  (3) own packages,
+    - made by yourself, can be imported by yourself etc...
+
+variadic parameters:
+  - the "...<some type>" is how to signify a variadic parameter
+  - the type "interface{}" is the empty interface
+    (every value is also of type "interface{}")
+  - so the parameter "...interface{}" means -> "give me as many arguments of any type as you'd like"
+
+how to "throw away" returns:
+  - use the "_" underscore character to signify that you're accepting the returned value, but you're not going to use that variable anywhere later in your code
+  - this is necessary as you aren't allowed to have unused variables in any of your Go code

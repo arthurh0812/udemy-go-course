@@ -1,0 +1,57 @@
+is Go an Object Oriented Programming language?
+  - Go has OOP aspects. but it is all about Type. there are builtin Types in Go, we 
+  create Types in Go; you can then have Values of that Type. we can assign Values of 
+  a user-defined Type to Variables.
+
+- Go is Object-Oriented:
+  1. Encapsulation
+    a) state ("fields")
+    b) behaviour ("methods")
+    c) "exported" & "unexported"
+  2. Reusability
+    a) inheritance
+  3. Polymorphism
+    a) interfaces
+  4. Overriding
+    a) "promotion"
+
+- traditional OOP:
+  1. Classes
+    a) data structure describing a Type of Object
+    b) you can create "instances/objects" from the class
+    b) classes hold both
+      i.  state / data / fields
+      ii. behaviour / methods
+    d) public / private
+  2. Inheritance
+
+- in Go:
+  1. you don't create classes, you create a Type
+  2. you don't instantiate, you create a Value of a Type
+
+- User-defined Types:
+  ~ you can declare a new Type (with the Identifier "foo")
+  ~ the underlying Type of foo is "int"
+  ~ int conversion is possible:
+    > `var myAge foo = 43`
+    > `int(myAge)`
+    > converting Type foo to Type int
+  ~ it is a bad practice to "alias" Types:
+    > one exception:
+      - if you need to attach methods to a builtin Type
+      - see the "time"-package for an example:
+        # `type Duration int64`
+        # Duration has new methods attached to it
+
+
+Named Types vs Anonymous Types:
+  - Anonymous Types are indeterminate. they have not been declared as a Type yet. the
+  compiler has flexibility with Anonymous Types. you can assign an Anonymous Type to 
+  a Variable declared as a certain Type. if the assignment can occur, the compiler will figure it out; the compiler will do an implicit Conversion. you cannot assign a Named Type to a different Named Type.
+
+
+Padding & Architectural alignment:
+  - Convention: Logically Organize your fields together. Readability and Clarity
+  trump performance as a design concern. Go will be Performant. go for Readability First.
+  - However if you are in a situation where you need to prioritize performance:
+    ~ lay the fields out from the Largest (memory consuming) to Smallest, eg. int64 int64, float32, bool

@@ -1,0 +1,9 @@
+1. Using the following operators, write expressions and assign their values to variables:
+  a. ==
+  b. <=
+  c. >=
+  d. !=
+  e. <
+  f. >
+
+2. Now print each of the variables. 

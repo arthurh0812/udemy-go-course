@@ -1,0 +1,2 @@
+when you have a Slice of some Type, you can pass in the individual Values in a Slice 
+by using the lexical element "..." (Operator) to "unpack" all the elements in it.

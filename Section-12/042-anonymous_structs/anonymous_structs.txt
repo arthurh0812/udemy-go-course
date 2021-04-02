@@ -1,0 +1,6 @@
+we can create Anonymous Structs also. an Anonymous Struct is a Struct which is not 
+associated with a specific Identifier. this can be useful when you only need a 
+certain struct once and don't want to overcomplicate your code by declaring more and 
+more Variables and Types with Identifiers. so if you need a certain combination of 
+Fields of different Types only once, it is a good solution to use an Anonymous 
+Struct there.

@@ -1,0 +1,15 @@
+you can create own Types in Go
+
+In Go, you don't talk about casting, you talk about Conversion and Assertion
+  - Conversion:
+    - 
+  - Assertion: 
+    - 
+A non-constant value x can be converted to type T in any of these cases:
+  - x is assignable to T.
+  - ignoring struct tags x's type and T have identical underlying types.
+  - ignoring struct tags (see below), x's type and T are pointer types that are not - defined types, and their pointer base types have identical underlying types.
+  - x's type and T are both integer or floating point types.
+  - x's type and T are both complex types.
+  - x is an integer or a slice of bytes or runes and T is a string type.
+  - x is a string and T is a slice of bytes or runes.

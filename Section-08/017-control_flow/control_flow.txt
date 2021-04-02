@@ -1,0 +1,39 @@
+Computers read programs in a certain way, just like we read books in a certain way 
+when we, as humans, read books, in western culture, we read from front to back, left 
+to right, top to bottom. this is known as reading it in Sequence. this is also known
+as Sequential control flow. in addition to Sequential control flow, there are two
+other statements which can affect how a computer reads code. a computer might hit a 
+Loop control flow. if it hits one of these, it will loop over the code in a 
+specified manner. Loop control flow is also known as Iterative control flow. finally 
+there is also Conditional control flow. if the computer hits a Condition like an 
+"if-statement" or a "switch-statement" the computer will take some course of action 
+depending upon some conditionl. so the three ways a computer reads code are:
+  => Sequential
+  => Iterative
+  => Conditional
+
+  a) Sequence
+    - one line after another
+  b) Loop / Iterative
+    - "for loop"
+      - init, cond, post
+    - bool (while-ish)
+      - infinite
+    - do-while-ish
+      - break
+    - continue
+    - nested
+  c) Conditionals
+    - switch / case / default statements
+      - no default fall-through
+      - creating fall-through
+      - multiple cases
+      - cases can be expressions
+        ~ evaluate to true, they run
+      - type
+    - if statements
+      - the "not operator" (!)
+      - initialization statement
+      - if / else
+      - if / else if / else
+      - if / else if / else if / else

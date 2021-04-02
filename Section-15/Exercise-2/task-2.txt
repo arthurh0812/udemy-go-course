@@ -1,0 +1,9 @@
+1. create a func with the identifier foo 
+  - that takes in a variadic parameter of type int
+  - that returns the sum of all values of type int passed in
+2. pass in a value of type []int into func foo (unpack the []int)
+3. create a func with the identifier bar that 
+  - takes in a parameter of type []int
+  - returns the sum of all values of type int passed in
+4. pass in a value of type []int into func bar
+

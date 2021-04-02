@@ -1,0 +1,4 @@
+Get this code (https://play.golang.org/p/j-EA6003P0) working...
+  1. ... using a func literal, aka anonymous self-executing function
+  2. ... using a buffered channel
+  

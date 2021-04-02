@@ -1,0 +1,14 @@
+Constant:
+  - simple, unchanging value
+  - only exists at compile time
+  - there are Typed and Untyped Constants:
+    a) const hello = "Hello, World"
+    b) const typedHello string = "Hello, World"
+  
+  - Untyped Constant:
+    - a constant value that does not yet have a fixed type
+      a) "constant of a kind"
+      b) not yet forced to "obey" the strict rules that prevent combining differently typed values
+    - an untyped constant can be implicitly converted by the compiler
+  
+  - it is this notion of an untyped constant that makes it possible for us to use constants in Go with great freedom

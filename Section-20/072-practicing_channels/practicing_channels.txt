@@ -1,0 +1,8 @@
+Channels can be thought as pipes using which Goroutines communicate.
+Similar to how water flows from one end to another pipe, data can be sent from one 
+end and received from another end using channels.
+
+Sends and Receives are Blocking by default:
+Sends and Receives to a channel are Blocking by default. What does this mean? When 
+data is sent to a channel, the control is Blocked in the send statement until some other Goroutine reads from that channel. Similarly when data is read from a channel, 
+the read is Blocked until some Goroutine writes to that channel.

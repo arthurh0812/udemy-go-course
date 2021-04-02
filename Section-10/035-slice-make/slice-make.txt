@@ -1,0 +1,11 @@
+Slices are built on top of Arrays. a Slice is dynamic in that it will grow in size. 
+The underlying Array, however, does not grow in size. When we create a slice, we can 
+use the built in function make to specify how large our Slice should be and also how 
+large the underlying Array should be. This can enhance performance a little bit 
+because every time the size of the Slice is bigger than the size of its underlying 
+Array, the items of the Array will be copied and set into another Array which then 
+replaces the old unerlying Array. That takes quite a bit a time to process compared 
+to having no such thing when specifically setting the size of the undelying Array 
+big enough.
+  - make([]T, length, capacity) 
+  - make([]int, 50, 100) 

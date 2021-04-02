@@ -1,0 +1,9 @@
+1. create a type SQUARE
+2. create a type CIRCLE
+3. attach a method to each that calculates AREA and returns it
+  - circle area= π r 2
+  - square area = L * W
+4. create a type SHAPE that defines an interface as anything that has the AREA method
+5. create a func INFO which takes type shape and then prints the area
+6. create a value of type square and a value of type circle
+7. use func info to print the area of square and use func info to print the area of circle

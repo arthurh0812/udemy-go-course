@@ -1,0 +1,11 @@
+a "defer"-statement invokes a function whose execution is deferred to te moment the 
+surrounding function Returns, either because the surrounding function executed a 
+"return"-statement, reached the end of its Function Body or because the corresponding
+Goroutine is Panicking.
+
+Each time a "defer"-statement executes, the function Value and Parameters to the 
+Call are evaluated as usual and saved anew, but the actual function is not invoked. 
+Instead, Deferred functions are invoked Immediately before the surrounding function 
+returns, in the reverse order they were deferred.
+If a deferred function Value evaluates to "nil", execution panics when function is 
+invoked, but not when the "defer"-statement is executed.

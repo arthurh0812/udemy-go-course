@@ -1,0 +1,3 @@
+you can create a Function which takes in an Unlimited number of Arguments. When you 
+do this, this is known as a "variadic parameter". you use the lexical element 
+operator "...T" to signify a variadic parameter (there "T" represents some type)

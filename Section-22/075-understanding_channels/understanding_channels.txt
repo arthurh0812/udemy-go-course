@@ -1,0 +1,8 @@
+Channels are like runners in a relay race
+  - they are synchronized
+  - they have to pass/receive the value at the same time
+  - just like runners in a relay race, they have to pass/receive the baton to each 
+    other at the same time
+  - the value is passed/received synchronously; at the same time
+
+Channels allow us to pass values between goroutines.

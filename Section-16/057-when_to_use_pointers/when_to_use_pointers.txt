@@ -1,0 +1,8 @@
+Pointers allow you to Share a Value stored in some memory location. use Pointers 
+when:
+  1. you don't want to pass around a lot of data
+  2. you want to change the data at a location
+
+Evetything in Go is Pass By Value. Pass by reference, pass by copy - that doesn't
+matter in Go. "Pass by Value". That's the phrase you need to know. "What you see is 
+what you get" (wysiwyg). Only Values of something are ever passed around, except you reference the address of that Value.

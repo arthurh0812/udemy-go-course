@@ -1,0 +1,9 @@
+Arrays are mostly used as a building block in the Go programming language. 
+in some instances, we might use an Array, but mostly the recommendation is 
+to use Slices instead.
+
+Arrays can store a specified amount of values of the same type, called the 
+Element Type. you can access and change these Elements by accessing the 
+index of this Element in this Array. the number of Elements is called 
+Length of the Array and is never negative. the Length is part of the 
+Array's type, so there type 

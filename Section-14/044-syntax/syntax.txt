@@ -1,0 +1,8 @@
+Functions are there to make your code more Modular. They allow you to Reuse and 
+Abstract code.
+
+Difference between Parameters and Arguments:
+  - you Define your Function with Parameters (if any)
+  - you Call your Function with Arguments (if any)
+
+everything in Go is Pass by Value

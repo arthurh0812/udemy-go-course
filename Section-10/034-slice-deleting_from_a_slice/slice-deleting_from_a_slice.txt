@@ -1,0 +1,1 @@
+we can delete from a Slice using both "append" and slicing. this is a wonderful and elegant example of why Go is great and how Go provides ease of programming.

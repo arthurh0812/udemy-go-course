@@ -1,0 +1,7 @@
+in Go, values can be of more than one Type. an Interface allows a Value to be of 
+more than one Type. we create an Interface using this syntax: "keyword identifer 
+type" so for an Interface it would be: "type human interface". we then define which
+method(s) a Type must have to implement that Interface. if a Type has the required 
+Methods, which could be none (the empty interface denoted by interface{}), then that 
+Type implicitly implements the interface and is also of that Interface Type. In Go,
+Values can be of more than one Type.

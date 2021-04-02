@@ -1,0 +1,17 @@
+we can take one Struct and embed it in another Struct. when you do this the Inner Type gets "promoted" to the Outer Type.
+
+- a Field Declaration with a Type, but no explicit Field name is called an Embedded
+  Field. an Embedded Field must be specified as a Type name, or as a Pointer to a 
+  non-interface Type name, and it may not be a Pointer Type. the unqualified Type 
+  name acts as the Field name.
+
+- (direct) Field names must be unique in a Struct Type.
+
+- Field f of an Embedded Field in Struct x is Promoted if x.f is a legal Selector
+- Promoted Fields act like ordinary Fields of a Struct except that they cannot be 
+  used as Field names in Composite Literals of the Struct
+
+Tags:
+  - a Field Declaration may be followed by an optional string literal "tag",
+    which becomes an attribute for all the Fields in the corresponding Field Declaration.
+  - an empty Tag string is equivalent to an absent Tag.

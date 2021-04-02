@@ -1,0 +1,14 @@
+terminology:
+  - keywords:
+    these are words that are reserved for use by the Go programming language
+      (you can't use a keyword for anything other than its purpose)
+  - operator:
+    an operator is a character / set of characters that represent an action, as for example "+" is an arithmetic operator
+  - operand:
+    operands are the actual entities that stand by an operator
+      (in "2 + 2" the operands would be both "2"s, and the operator would be "+")
+  - statement:
+    in programming, a statement is the smallest standalone element of a program that expresses some action to be carried out. it is an instruction that commands the computer to perform a specific action. a program is formed by a sequence of one or more statements 
+  - expression:
+    in programming, an expression is a combination of one or more explicit values, constants, variables, operators, and functions that the programming language interprets and computes to produce another value. for example "2 + 3" is an expression which evaluates to "5".
+      (notice that e.g. "2" is also an expression that simply evaluates to "2" again)

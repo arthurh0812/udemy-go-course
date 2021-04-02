@@ -1,0 +1,19 @@
+escaped characters:
+  - \n newline
+  - \t horizontal tab
+  - \v vertical tab
+  - \b backspace
+
+format printing:
+  - general printing to standard output:
+    - func Print(a ...interface{}) (n int, err error)
+    - func Printf(format string, a ...interface{}) (n int, err error)
+    - func Println(a ...interface{}) (n int, err error)
+  - returning a formatted string:
+    - func Sprint(a ...interface{}) string
+    - func Sprintf(format string, a ...interface{}) string
+    - func Sprintln(a ...interface{}) string
+  - printing to a file or a web server's response
+    - func Fprint(w io.Writer, a ...interface{}) (n int, err error)
+    - func Fprintf(w io.Writer, format string, a ...interface{}) (n int, err error)
+    - func Fprintln(w io.Writer, a ...interface{}) (n int, err error)

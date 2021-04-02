@@ -1,0 +1,22 @@
+Scope:
+  - where a variable exists and is accessible
+
+var Keyword:
+  - can be used anywhere within the package
+  - variables declared by "var", which are in the Package-level code, can be accessed anywhere in the package
+  - variables declared by "var", which are not in the Package-level code, follow the standard scoping rules
+
+short declaration Operator:
+  - cannot be used outside a function Body (that means in package-level code)
+  - variables declared by it follow the standard scoping rules
+
+default values:
+  - if no explicit Initialization is provided when a variable is declared, the variable/value is given a default value. Each element of such variable/value is set to the "zero-value" for its individual Type:
+    - bool: false
+    - int: 0
+    - float: 0.0
+    - string: ""
+    - pointer/function/interface/slice/channel/map: nil
+  initialization is done recursively.
+
+declaration + assignment to value => "initialization"

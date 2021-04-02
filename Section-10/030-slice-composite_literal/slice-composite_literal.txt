@@ -1,0 +1,9 @@
+A Slice allows you to group together Values of the same Type. behind the 
+scenes for a Slice that has no specified underlying Array an Array is 
+created automatically. This Elements of the Array are modified whenever 
+the slice's are modified, too.
+
+Composite Literals construct Values for Structs, Arrays, Slices, and Maps 
+and create a new Value each time they are evaluated. they consist of the 
+Type of the Literal followed by a brace-bound list of Elements. each 
+Element may optionally be preceeded by a corresponding Key.

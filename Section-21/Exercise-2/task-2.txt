@@ -1,0 +1,10 @@
+1. create a type 'person' struct
+2. attach a method 'speak' to type 'person' using a pointer receiver
+3. create a type 'human' interface
+  - to implicitly implement the interface a type must have the 'speak' method
+4. create a func 'saySomething'
+  - have it take in a parameter of type 'human'
+  - have it call the 'speak' method
+5. show the following:
+  - you CAN pass a value of type *person into 'saySomething'
+  - you CANNOT pass a value of type person into 'saySomething'

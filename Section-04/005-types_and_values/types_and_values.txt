@@ -1,0 +1,16 @@
+Static programming language:
+  - variables are declared to hold a Value of certain Type
+  - Types of variables don't change within the code
+
+Dynamic programming language:
+  - Types of variables can be overwritten within the code
+
+Primitive Data Types:
+  - primitive data type is either of the following:
+    - a basic type is a data type provided by a programming language as a basic building block. Most languages allow more complicated compsite types to be constructed starting from basic types.
+    - a built-in type is a data type for which the programming language provides built-in support.
+  - in most programming languages, all basic data types are built-in. in addition, many programming languages also provide a set of composite data types. Opinions vary as to whether a built-in type that is not a basic type should be considered "primitive"
+
+Composite Data Types:
+  - a composite data type or compound data type is any data type which can be constructed in a program using the programming language's primitive data types and other composite types. it is sometimes called a "structure" or "aggregate data type", although the latter term may also refer to arrays, lists, etc.
+  - constructing a composite data type is known as "composition"

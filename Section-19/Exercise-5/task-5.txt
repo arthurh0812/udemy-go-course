@@ -1,0 +1,6 @@
+1. Starting with this code, sort the []user by
+  - age
+  - last
+
+2. Also sort each []string "Sayings" for each user
+  - print everything in way that is pleasant

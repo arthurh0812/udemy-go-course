@@ -1,0 +1,10 @@
+- create "general" channels
+- in funcs you can specify
+  ~ receive channel
+    > you can receive values from the channel
+    > a receive channel parameter
+    > in the func, you can only pull values from the channel
+    > you cannot close a receive channel
+  ~ send channel
+    > you can only push values to the channel
+    > you can't receive(means: read) from the channel

@@ -1,0 +1,1 @@
+within a Constant declaration, the predeclared Identifier Iota represents successive untyped Integer constants. it is reset to 0 whenever the reserved word const appears in the source. it can be used to construct a set of related constants.

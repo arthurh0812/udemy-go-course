@@ -1,0 +1,10 @@
+all Values are Stored in Memory. every location in Memory has an Address. a Pointer ("*") is a memory Address.
+
+"&" to get the Address (in memory) of the following Variable
+  - the Type of this expression is the Type *T, a Pointer to a Value of type T, so 
+  e.g. with an int variable it would be:
+    *int, a Pointer to a Value of Type int
+
+"*" to get the Value of the following Address (in memory)
+  - the Type of this expression is the Type T of the stored Value, so e.g. with a *string, a Pointer to a Value of type string, it would be:
+    string, a Value of Type string

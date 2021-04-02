@@ -1,0 +1,13 @@
+control flows:
+  (1) sequence
+  (2) loop/iterative
+  (3) conditional
+
+basic programm structure:
+  package main (this is often also the go module)
+    - other packages inside
+    - file including 'func main() { ... }'
+
+'func main() { ... }':
+  - entry point to your programm
+  - when process is finished with the block inside 'func main() { some code }', then your programm is over

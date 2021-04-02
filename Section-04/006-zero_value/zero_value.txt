@@ -1,0 +1,17 @@
+zero-values:
+  - false for booleans
+  - 0 for integers and floats
+  - "" for strings
+  - nil for 
+  - pointers
+  - functions
+  - interfaces
+  - slices
+  - channels
+  - maps
+
+tips:
+  - use as much short declaration operators as possible
+  - use var for:
+    zero value
+    package scope

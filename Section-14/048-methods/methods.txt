@@ -1,0 +1,3 @@
+a Metod is nothing more than a Function attached to a Type. when you attach a 
+Function to a Type it is a Method Of that Type. You attach a Function to a Type with 
+a Receiver (as shown in the code and mentioned in the 044-syntax package).

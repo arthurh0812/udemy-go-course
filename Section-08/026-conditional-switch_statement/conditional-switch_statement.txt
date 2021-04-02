@@ -1,0 +1,6 @@
+switch / case / default statements:
+  - no default fall-through
+  - creating fall-through
+  - multiple cases
+  - cases can be expressions
+    ~ evaluate to true, they run

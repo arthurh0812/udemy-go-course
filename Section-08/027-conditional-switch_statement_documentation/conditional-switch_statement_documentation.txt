@@ -1,0 +1,14 @@
+"switch-"statements:
+  - expression switches:
+    ~ in an expression switch, the cases contain expressions that are compared against the value of the switch expression.
+    ~ first the switch expression is evaluated, then the case expressions are evaluated (from left-to-right, top-to-bottom)
+    ~ the first case expression that equals the switch expression triggers execution of the statements of the associated case; all the other cases are skipped
+    ~ if no case expression matches and if there is a "default" case specified, its statements are executed
+    ~ at most 1 default case, standing wherever in the "switch"-statement
+    ~ a missing switch expression is equivalent to the boolean value "true"
+    ~ the predeclared untyped value "nil" cannot be used as a switch expression
+    ~ cases can be presented in comma-seperated lists
+
+  - type switches:
+    ~ in a type switch, the cases contain types that are compared against the type of a specifically annotated switch expression.
+  - the switch expression is evaluated exactly once in a switch statements

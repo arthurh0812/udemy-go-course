@@ -1,0 +1,2 @@
+1. fix the race conditionyou created in the previous exercise by using a mutex
+  - it makes sence to remove runtime.Gosched()

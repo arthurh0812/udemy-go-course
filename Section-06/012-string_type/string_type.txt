@@ -1,0 +1,3 @@
+1. A string value is a (possibly empty) sequence of bytes. Strings are immutable: once created, it is impossible to change the contents of a string.
+
+2. Each byte represents a Character in the UTF-8; the byte is a decimal representation of the UTF-8 hexadecimal code.

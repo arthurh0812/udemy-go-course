@@ -1,0 +1,4 @@
+one Scope enclosing other Scopes
+  - variables declared in the Outer scope are accessible in the Inner scopes
+  
+Closure helps to Limit the Scope of Variables

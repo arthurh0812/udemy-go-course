@@ -1,0 +1,9 @@
+Bit shifting is when you shift binary digits to the left or right. We can use bit shifting, along with iota, to build some creative constants.
+
+Operators:
+  a) from binary representation of 'y' go 'x' binary digits (bits) to the left:
+  =>  y << x
+  (e.g.: 30 << 2 => 1111000(binary) that means 120(decimal))
+  b) from binary representation of 'y' go 'x' binary digits (bits) to the right: 
+  =>  y >> x
+  (e.g.: 30 >> 2 => 111(binary) that means 7(decimal))

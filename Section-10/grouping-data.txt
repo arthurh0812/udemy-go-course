@@ -1,0 +1,19 @@
+- array
+    a numbered sequence of elements of a single type
+    does not change in size
+    used for Go internals; generally not recommended for your code
+    https://golang.org/ref/spec#Array_types 
+- slice
+    built on top of an array
+    holds values of the same type
+    changes in size
+    has a length and a capacity
+    https://golang.org/ref/spec#Slice_types 
+- map
+    key / value storage
+    an unordered group of elements of one type, called the element type, indexed by a set of unique keys of another type, called the key type.
+    https://golang.org/ref/spec#Map_types 
+- struct
+    a data structure
+    a composite type
+    allows us to collect values of different types together

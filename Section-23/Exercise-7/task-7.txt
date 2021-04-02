@@ -1,0 +1,5 @@
+Write a program that...
+  1. ... launches 10 goroutines
+    - each goroutine adds 10 numbers to a channel
+  2. ... pulls the numbers off the channel and prints them
+  

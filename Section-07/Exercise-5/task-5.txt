@@ -1,0 +1,2 @@
+1. Create a variable of type string using a raw string literal. 
+2. Print it.

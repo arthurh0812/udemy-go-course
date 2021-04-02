@@ -1,0 +1,5 @@
+Method Sets determine what Methods attach to a Type. it is exactly what the name 
+says: What is the set of Methods for a given Type? That is its Method Set.
+
+IMPORTANT: "The method set of a type determines the Interfaces that the type
+implements." ~ golang spec

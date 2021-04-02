@@ -1,0 +1,8 @@
+a Type may have a Method set associated with it. the Method set of an Interface Type 
+is its Interface. the Method set of any other Type T consists of all Methods declared
+with its Receiver Type T. the Method set of the corresponding Pointer Type *T is the
+set of all Methods declared with Receiver Type *T or T (that is, it also contains 
+the Method set of Type T).
+
+the Method set of a Type determines the Interface that the Type implements and the 
+Methods that can be called using a Receiver of that Type.

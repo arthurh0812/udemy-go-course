@@ -1,0 +1,2 @@
+1. Using the code from the previous example, delete a record from your map. 
+2. Now print the map out using the "range"-loop

@@ -1,0 +1,7 @@
+logical operators:
+  - "&&"
+    combines the two expressions and only evaluates to "true" if both expressions are evaluated to "true", otherwise the combination will evaluate to "false"
+  - "||"
+    combines the two expressions and evaluates to "true" if at least one of the both expressions is "true", only if none of the expressions evaluates to "true", then the whole combination will be "false"
+  - "!"
+    flips the logic of an expression around (true => false, false => true)

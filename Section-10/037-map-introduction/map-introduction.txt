@@ -1,0 +1,17 @@
+a Map is a Key-Value store. this means that you store some Value and you access that 
+Value by a Key. for instance, you might store the Value “phoneNumber” and access it 
+be the Key “friendName”. this way i could enter my friend’s name and have the Map 
+return their phone number. the syntax for a Map is "map[<key>]<value>". The Key can 
+be of any Type which allows comparison (eg, you could use a string or an int, for 
+example, as you can compare if two strings are equal, or if two ints are equal). It 
+is important to note that Maps are unordered. if you print out all of the Keys and 
+Values in a Map, they will print out in random order. 
+
+The "comma-ok idiom" is also covered in this video. if you access a non-existing Key 
+of a Map, it will return the zero-value of the certain Value Type of the Map as the 
+first return value, and as the second return value it will give "false" back. 
+With a existing key the first return value will be just the Value of the 
+corresponding Key in the Map, whereas the second return value will be "true". Thats
+why the "comma-ok idiom" works like that.
+
+- a Map is the perfect data structure when you need to look up data fast.

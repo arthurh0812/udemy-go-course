@@ -1,0 +1,4 @@
+there are three ways you can do loops in Go - they all just use the “for” keyword:
+  a) for init; condition; post { }
+  b) for condition { }
+  c) for { }

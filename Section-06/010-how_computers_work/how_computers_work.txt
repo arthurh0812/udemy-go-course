@@ -1,0 +1,16 @@
+Binary Digits:
+0 1 (off on)
+
+- in a computer there are states of ON/OFF values called "transistors/circuits"
+- with a certain amount of transistors you can send a certain amount of messages:
+  - 1 transistor : 2 messages (0 | 1)
+  - 2 transistors : 4 messages (0 0 | 0 1 | 1 1 | 1 0 )
+  - 3 transistors : 8 messages (0 0 0 | 0 0 1 | 0 1 1 | 1 1 1 | 1 1 0 | 1 0 0 | 1 0 1 | 0 1 0)
+  - 4 transistors : 16 messages (...)
+  - 5 transistors : 32 messages (...)
+  - 6 transistors : 64 messages (...)
+  - 7 transistors : 128 messages (...)
+  - 8 transistors : 256 messages (...)
+  - 9 transistors : 512 messages (...)
+
+  => 2^n messages | n = amount of transistors

@@ -1,0 +1,6 @@
+"if-statements":
+  - bool
+    a) true
+    b) false
+  - the not operator
+    a) "!"

@@ -1,0 +1,15 @@
+There are ...
+
+BIdirectional channels:
+  - you can receive from and send to that channel
+
+UNIdirectional channels:
+  - you can either only receive from that channel or only send to it.
+  - depends on specification of either receive or send
+
+"A channel may be constrained only to send or only to receive [general tp specific]
+by conversion or assignment." ~ Golang Language Specification
+  - "Channel Conversion":
+    ~ from general(here: bidirectional) to specific(here: unidirectional) works
+    ~ from specific(here: unidirectional) to general(here: bidirectional) doesn't 
+    work 

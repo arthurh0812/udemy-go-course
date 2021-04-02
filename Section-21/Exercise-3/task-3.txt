@@ -1,0 +1,11 @@
+1. using goroutines, create an incrementor program
+  - have a variable hold the incrementor value
+  - launch a bunch of goroutines
+  - each goroutine should:
+    ~ read the incrementor value and store it in a new variable
+    ~ yield the processor with runtime.Gosched()
+    ~ increment the new variable
+    ~ write the value of the new variable back to the incrementor variable
+
+2. use waitgroups to wait for all of your goroutines to finish
+3. prove that it is a race condition by using the 'race' flag

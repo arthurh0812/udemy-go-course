@@ -1,0 +1,17 @@
+Integers:
+  - numbers without decimals ("whole numbers")
+  
+  - "int" and "uint":
+    - implementation-specific sizes (depends on your machine)
+  - all numeric types are distinct except
+    a) byte which is an alias for "uint8"
+    b) rune which is an alias for "int32"
+  
+  - types are unique:
+    a) "this is a static programming language"
+    b) "Conversions are required when different numeric types are mixed in an expression or assignment. For instance, int32 and int are not the same type even though they may have the same size on a particular architecture"
+  
+Floating Points:
+  - numbers with decimals ("real numbers")
+  
+  - rule of thumb: just use float64

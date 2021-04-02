@@ -1,0 +1,8 @@
+To append values to a slice, we use the special built in function append. This 
+function returns a slice of the same type. 
+
+variadic operator("..."):
+  - before some Type:
+    - means that there can be as many as possible values from this certain Type
+  - after some Data structure of a Compound Data Type:
+    - represents all values hold within that specific Data structure
